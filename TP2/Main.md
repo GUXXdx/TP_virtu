@@ -54,7 +54,7 @@
 
     PC1> ping 10.2.1.254
 
-    84 bytes from 10.2.1.254 icmp_seq=1 ttl=64 time=12.396 ms
+    84 bytes from 10.2.1.254 icmp_seq=1 ttl=64 time=16.368 ms
     84 bytes from 10.2.1.254 icmp_seq=2 ttl=64 time=2.694 ms
     84 bytes from 10.2.1.254 icmp_seq=3 ttl=64 time=2.806 ms^C
     
@@ -62,8 +62,8 @@
 
     PC1> ping 8.8.8.8
 
-    84 bytes from 8.8.8.8 icmp_seq=1 ttl=112 time=50.469 ms
-    84 bytes from 8.8.8.8 icmp_seq=2 ttl=112 time=77.570 ms
+    84 bytes from 8.8.8.8 icmp_seq=1 ttl=112 time=51.495 ms
+    84 bytes from 8.8.8.8 icmp_seq=2 ttl=112 time=73.570 ms
     ^C
 
 #
@@ -190,10 +190,10 @@ La capture est sous le nom : arp.pcapng
 #
     debian@debian:~$ sudo arping 10.2.1.10
     ARPING 10.2.1.10
-    58 bytes from 00:50:79:66:68:00 (10.2.1.10): index=0 time=7.364 msec
+    58 bytes from 00:50:79:66:68:00 (10.2.1.10): index=0 time=37.364 msec
     58 bytes from 00:50:79:66:68:00 (10.2.1.10): index=1 time=20.459 msec
     58 bytes from 00:50:79:66:68:00 (10.2.1.10): index=2 time=27.459 msec
-    58 bytes from 00:50:79:66:68:00 (10.2.1.10): index=3 time=53.700 msec
+    58 bytes from 00:50:79:66:68:00 (10.2.1.10): index=3 time=51.700 msec
     58 bytes from 00:50:79:66:68:00 (10.2.1.10): index=4 time=7.344 msec
     58 bytes from 00:50:79:66:68:00 (10.2.1.10): index=5 time=17.578 msec
     ^C
