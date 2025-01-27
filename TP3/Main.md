@@ -31,7 +31,7 @@ PC3> ping 10.3.1.1
 84 bytes from 10.3.1.1 icmp_seq=5 ttl=62 time=57.501 ms
 ```
 
-🌞 **Capture Wireshark `ping_par![[ping_dns.pcapng]]tie1`**
+🌞 **Capture Wireshark `ping_partie1`**
 ![[ping_partie1.pcapng]]
 
 🌞 **Afficher les adresses MAC des routeurs**
@@ -204,8 +204,9 @@ dns.tp3.b2 resolved to 10.3.3.3
 84 bytes from 10.3.3.3 icmp_seq=5 ttl=63 time=43.001 ms
 ```
 
+🌞 **Capture Wireshark** 
+![[ping_dns.pcapng]]
 
-🌞 **Capture Wireshark** ![[ping_dns.pcapng]]
 🌞 **HTTP - Preuve avec un client**
 ```
 [toto@dns ~]$ curl supersite.tp3.b2 | head 
